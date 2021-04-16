@@ -1,0 +1,3 @@
+[submodule "example-story"]
+	path = src/react-storybook
+	url = https://github.com/rohit-thinkJS/react-storybook
