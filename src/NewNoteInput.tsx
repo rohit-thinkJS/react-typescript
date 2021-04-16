@@ -1,6 +1,7 @@
 import React, { ChangeEvent, useState } from 'react';
 import { Button } from 'antd';
 
+
 interface NewNoteInputProps {
   addNote(note: string): void;
 }
