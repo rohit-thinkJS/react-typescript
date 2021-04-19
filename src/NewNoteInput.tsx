@@ -1,5 +1,6 @@
 import React, { ChangeEvent, useState } from 'react';
-import { Button } from 'antd';
+// import { Button } from 'antd';
+import { ButtonComp, RectButton } from './react-storybook/src/stories/Button';
 
 
 interface NewNoteInputProps {
@@ -23,7 +24,8 @@ return (
   <div>
     <input onChange={updateNote} value={note} type="text" name="note" placeholder="Note" />
     {/* <Button onClick={onAddNoteClick} label={"Add"} /> */}
-    <Button onClick={onAddNoteClick} type="primary">Add Task</Button>
+    <ButtonComp onClick={onAddNoteClick} label="Add Task" />
+    <RectButton onClick={onAddNoteClick} label="Add Task" />
   </div>
 )
 };
